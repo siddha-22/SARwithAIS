@@ -3,7 +3,7 @@
 > Detects AIS-dark vessels across multiple Sentinel-1 SAR scenes using a
 > fine-tuned YOLOv8s detector, correlated against Global Fishing Watch AIS
 > records. Built as a demonstration of the maritime surveillance pipeline
-> underlying systems like PierSight's MATSYA platform.
+
 
 ![Dark Vessel Map](outputs/chip_samples_multiscene.png)
 
@@ -119,11 +119,8 @@ VarunEye/
 │   └── processed/
 │       └── detections_multiscene.csv   # Final pipeline output (included)
 ├── notebooks/
-│   ├── 01_data_download.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_train_yolov8.ipynb
-│   ├── 04_inference_ais.ipynb
-│   └── 05_dashboard.ipynb
+│   ├── SARwithAIS.ipynb
+│   
 ├── app/
 │   ├── app.py                # Streamlit dashboard
 │   ├── map_view.py            # Folium map builder
