@@ -173,7 +173,6 @@ The dashboard's confidence slider lets the threshold be tuned post-hoc.
 - Real-time Sentinel-1 ingestion via Copernicus Data Space API
 - Vessel length/heading estimation from SAR backscatter geometry
 - AIS gap detection (vessel transmits, then goes dark mid-track)
-- Deployment against PierSight's own Varuna satellite SAR+AIS data
 
 ---
 
@@ -184,5 +183,4 @@ MIT — see [LICENSE](LICENSE)
 ---
 
 *Built by Sid as a self-directed portfolio project demonstrating SAR/AIS
-fusion for maritime surveillance, targeting PierSight's mission of
-satellite-based dark vessel detection.*
+fusion for maritime surveillance.*
