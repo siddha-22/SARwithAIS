@@ -1,4 +1,4 @@
-# 🛰️ VarunEye — Dark Vessel Detection using SAR + AIS
+# Dark Vessel Detection using SAR + AIS
 
 > Detects AIS-dark vessels across multiple Sentinel-1 SAR scenes using a
 > fine-tuned YOLOv8s detector, correlated against Global Fishing Watch AIS
