@@ -1,0 +1,9 @@
+
+path: /content/drive/MyDrive/VarunEye/data/chips
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: cooperative
+  1: dark

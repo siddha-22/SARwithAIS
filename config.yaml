@@ -1,0 +1,42 @@
+ais_correlation:
+  spatial_buffer_deg: 0.05
+  time_window_minutes: 30
+chipping:
+  chip_size: 640
+  min_brightness: 0.01
+  overlap: 64
+dark_vessel:
+  label_matched: Cooperative
+  label_unmatched: Dark
+inference:
+  confidence_threshold: 0.01
+  display_threshold: 0.05
+  iou_threshold: 0.45
+paths:
+  ais_records: /content/drive/MyDrive/VarunEye/data/raw/ais_records
+  chips_images: /content/drive/MyDrive/VarunEye/data/chips/images
+  chips_labels: /content/drive/MyDrive/VarunEye/data/chips/labels/
+  detections: /content/drive/MyDrive/VarunEye/data/processed/detections_multiscene.csv
+  model: models/best_multiscene.pt
+  sar_scenes: /content/drive/MyDrive/VarunEye/data/raw/sar_scenes/
+scenes:
+- id: 05bc615a9b0e1159t
+  label_csv: train
+- id: 72dba3e82f782f67t
+  label_csv: train
+- id: 590dd08f71056cacv
+  label_csv: validation
+- id: 2899cfb18883251bt
+  label_csv: train
+- id: b1844cde847a3942v
+  label_csv: validation
+- id: cbe4ad26fe73f118t
+  label_csv: train
+- id: e98ca5aba8849b06t
+  label_csv: train
+training:
+  batch_size: 16
+  epochs: 50
+  imgsz: 640
+  model_variant: yolov8n
+  val_split: 0.2

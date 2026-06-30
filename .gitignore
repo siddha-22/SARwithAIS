@@ -1,0 +1,19 @@
+# Large data — not pushed to GitHub
+data/raw/sar_scenes/
+data/raw/ais_records/
+data/chips/images/
+data/chips/labels/
+data/chips/*.cache
+
+# Model weights — hosted via GitHub Releases instead
+models/*.pt
+
+# Colab/training artifacts
+runs/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
